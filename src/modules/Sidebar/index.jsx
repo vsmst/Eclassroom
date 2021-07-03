@@ -2,6 +2,7 @@ import React from 'react';
 import Title from './components/title/index';
 import Link from './components/link/index';
 import { LINKS } from './constants/links';
+import PropTypes from 'prop-types';
 
 const Sidebar = ({ links = LINKS }) => {
   return (
@@ -22,6 +23,10 @@ const Sidebar = ({ links = LINKS }) => {
       </div>
     </div>
   );
+}
+
+Sidebar.propTypes = {
+  links: PropTypes.array.isRequired,
 }
 
 export default Sidebar;
