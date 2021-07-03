@@ -16,7 +16,7 @@ const Sidebar = ({ links = LINKS }) => {
             {links.map((l) => (
               l.type === 'title'
                 ? <Title text={l.text} />
-                : <Link text={l.text} />
+                : <Link text={l.text} href={l.href} />
             ))}
           </ul>
         </div>

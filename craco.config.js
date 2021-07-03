@@ -12,7 +12,7 @@ module.exports = {
           '@components': './src/components',
           '@containers': './src/containers',
           '@modules': './src/modules',
-          '@pages': './pages'
+          '@pages': './src/pages'
         }
       }
     }

@@ -8,6 +8,9 @@ const LINKS = [{
 }, {
   text: 'Notifications',
 }, {
+  text: 'Subjects',
+  href: '/subjects',
+}, {
   text: 'Tasks',
   type: 'title',
 }, {
