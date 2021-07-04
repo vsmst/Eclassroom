@@ -56,35 +56,6 @@ export default function index() {
               <div
                 className="transition duration-300 ease-in-out rounded-2xl mr-1 px-2 py-1 hover:bg-blue-200 text-gray-500 hover:text-gray-800"
               >
-                <a className="" href="#">#hogehoge</a>
-              </div>
-            </li>
-            <li className="py-1">
-              <div
-                className="transition duration-300 ease-in-out rounded-2xl mr-1 px-2 py-1 hover:bg-blue-200 text-gray-500 hover:text-gray-800"
-              >
-                <a className="" href="#">#fugafuga</a>
-              </div>
-            </li>
-
-            <li className="py-1">
-              <div
-                className="transition duration-300 ease-in-out rounded-2xl mr-1 px-2 py-1 hover:bg-blue-200 text-gray-500 hover:text-gray-800"
-              >
-                <a className="" href="#">#foofoo</a>
-              </div>
-            </li>
-            <li className="py-1">
-              <div
-                className="transition duration-300 ease-in-out rounded-2xl mr-1 px-2 py-1 hover:bg-blue-200 text-gray-500 hover:text-gray-800"
-              >
-                <a className="" href="#">#barbarbar</a>
-              </div>
-            </li>
-            <li className="py-1">
-              <div
-                className="transition duration-300 ease-in-out rounded-2xl mr-1 px-2 py-1 hover:bg-blue-200 text-gray-500 hover:text-gray-800"
-              >
                 <a className="" href="">#hogefugafoo</a>
               </div>
             </li>

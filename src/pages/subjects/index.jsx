@@ -1,10 +1,10 @@
 import React from 'react';
 import Grid from '@/containers/grid';
-import PostCard from '@components/post-card/index';
 import PageContainer from '@containers/Page/index';
 import SearchInput from '@components/SearchInput/index';
 import SimpleCard from '@components/SimpleCard';
 import Button from '@components/Button';
+import ContentCard from '@components/ContentCard';
 
 export default function SubjectsPage() {
   const search = (e) => console.log(e.target.value);
@@ -18,19 +18,18 @@ export default function SubjectsPage() {
         </SimpleCard>
       </div>
       <Grid className="bg-gray-100">
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        </Grid>
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+      </Grid>
     </PageContainer>
   )
 }
