@@ -18,17 +18,11 @@ export default function SubjectsPage() {
         </SimpleCard>
       </div>
       <Grid className="bg-gray-100">
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
-        <ContentCard />
+        {
+          Array(100).fill(null).map(() => (
+            <ContentCard />
+          ))
+        }
       </Grid>
     </PageContainer>
   )
